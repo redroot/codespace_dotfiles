@@ -2,6 +2,8 @@
 
 # aliases
 
+echo "dotfiles start" >> dotfiles.log
+
 alias cw=carwow
 alias cst='carwow start'
 alias csp='carwow stop'
@@ -17,3 +19,5 @@ export GITHUB_PACKAGES_TOKEN=$PACKAGES_TOKEN
 
 # git env 
 source ./prompt
+
+echo "dotfiles start" >> dotfiles.log
