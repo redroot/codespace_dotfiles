@@ -1,5 +1,6 @@
 [user]
-  name = redroot  email = luke.williams@carwow.co.uk
+  name = redroot
+  email = luke.williams@carwow.co.uk
 [push]
   default = current
 [alias]
