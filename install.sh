@@ -8,14 +8,13 @@ echo "dotfiles install start" >> dotfiles.log
 export GITHUB_PACKAGES_TOKEN=$PACKAGES_TOKEN
 
 # scripts 
-source ./prompt
-source ./aliases
+cp aliases ~/.bash_aliases
+
+# git setup
+cp gitconfig ~/.gitconfig
 
 # binaries
 sudo apt update
 sudo apt install -y bat tmux 
-
-# git setup
-cp gitconfig ~/.gitconfig
 
 echo "dotfiles intall finished" >> dotfiles.log
