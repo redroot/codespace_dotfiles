@@ -2,22 +2,20 @@
 
 # aliases
 
-echo "dotfiles start" >> dotfiles.log
-
-alias cw=carwow
-alias cst='carwow start'
-alias csp='carwow stop'
-alias crs='carwow restart'
-alias cru='carwow run'
-alias cbu='carwow run bundle'
-alias cry='carwow run yarn'
-alias cwp='carwow webpack'
-
+echo "dotfiles install start" >> dotfiles.log
 
 # env variables
 export GITHUB_PACKAGES_TOKEN=$PACKAGES_TOKEN
 
-# git env 
+# scripts 
 source ./prompt
+source ./aliases
 
-echo "dotfiles start" >> dotfiles.log
+# binaries
+sudo apt update
+sudo apt install -y bat tmux 
+
+# git setup
+cp gitconfig ~/.gitconfig
+
+echo "dotfiles intall finished" >> dotfiles.log
