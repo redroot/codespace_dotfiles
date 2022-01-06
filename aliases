@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 alias cw=carwow
-alias cst='carwow start'
-alias csp='carwow stop'
-alias crs='carwow restart'
-alias cru='carwow run'
-alias cbu='carwow run bundle'
-alias cbu='carwow run bundle exec'
-alias cry='carwow run yarn'
+alias cs='carwow start'
+alias cr='carwow run'
+alias bu='carwow run bundle'
+alias be='carwow run bundle exec'
+alias ry='carwow run yarn'
 alias cwp='carwow webpack'
 
+alias gca='git commit -v -am'
+alias gpr='git pull --rebase'
