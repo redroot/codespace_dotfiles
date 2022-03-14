@@ -17,4 +17,7 @@ cp gitconfig ~/.gitconfig
 sudo apt update
 sudo apt install -y bat tmux 
 
+# path
+export PATH=$PATH:/workspaces/dev-environment/bin
+
 echo "dotfiles intall finished" >> dotfiles.log
